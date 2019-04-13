@@ -2,6 +2,7 @@ package com.tw;
 
 import java.util.Hashtable;
 import java.util.List;
+import java.util.Map;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
@@ -51,15 +52,15 @@ public class Handler {
             try {
                 String[] elems = inputStr.split(",");
 
-                if (elems.length < 4) //缺乏成绩信息等
+                if (elems.length != ConstantConfig.ELEMENT_NUMBER)
                     throw new Exception("length error");
 
                 Student student = new Student(elems[0], Integer.parseInt(elems[1]), elems[2], Integer.parseInt(elems[3]));
-                Hashtable<String, Integer> scores = new Hashtable<String, Integer>();
+                Hashtable<String, Double> scores = new Hashtable<String, Double>();
 
-                for (int i = 4; i < elems.length; i++) {
+                for (int i = ConstantConfig.STUDENT_FIELD_NUMBER; i < elems.length; i++) {
                     String[] map = elems[i].split(":");
-                    scores.put(map[key], new Integer(map[value]));
+                    scores.put(map[key], new Double(map[value]));
                 }
 
                 library.addScores(student, scores);
@@ -80,17 +81,23 @@ public class Handler {
             String inputStr = ui.getString();
 
             try {
+
                 String[] elems = inputStr.split(",");
                 List<Integer> ids = Stream.of(elems).map(Integer::new).collect(Collectors.toList());
 
-                Hashtable<Student, Hashtable<String, Integer>> res = library.searchStudentScore(ids);
-                ui.printSearchResult(res);
+                Map<Integer,List<Double>>klassInfos = new Hashtable<>();
+                Map<Integer,List<String>>studentsInfo = new Hashtable<>();
+                library.searchStudentScore(ids,klassInfos,studentsInfo);
+
+
+
+
+                ui.printSearchResult(klassInfos,studentsInfo);
                 break;
             } catch (Exception e) {
                 ui.printSearchFormatError();
             }
         }
     }
-
 
 }

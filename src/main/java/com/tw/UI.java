@@ -37,9 +37,22 @@ public class UI {
 
     }
 
-    public void printSearchResult( Hashtable<Student, Hashtable<String, Integer>> res){
+    public void printSearchResult(Map<Integer,List<Double>>klassInfos,Map<Integer,List<String>>studentsInfo){
 
-        
+        System.out.println("成绩单");
+        System.out.println("姓名|数学|语文|英语|编程|平均分|总分");
+
+        for(int klass :klassInfos.keySet()){
+
+            System.out.println("班级1");
+            System.out.println("姓名|数学|语文|英语|编程|平均分|总分");
+            System.out.println("========================");
+            for(String str : studentsInfo.get(klass))
+                System.out.println(str);
+            System.out.println("========================");
+            System.out.println(String.format("全班总分平均数：%f",klassInfos.get(klass).get(0)));
+            System.out.println(String.format("全班总分中位数：%f",klassInfos.get(klass).get(1)));
+        }
     }
 
     public void printlnAddStudentResult(String name){

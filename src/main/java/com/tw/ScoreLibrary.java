@@ -62,7 +62,8 @@ public class ScoreLibrary {
         }
         sum = addAddition(student,sum);
         scores4Klass.get(student).put(ConstantConfig.TOTAL,sum);
-        scores4Klass.get(student).put(ConstantConfig.AVG,sum/(ConstantConfig.ELEMENT_NUMBER - ConstantConfig.ELEMENT_NUMBER));
+        scores4Klass.get(student).put(ConstantConfig.AVG,sum/(ConstantConfig.ELEMENT_NUMBER - ConstantConfig.STUDENT_FIELD_NUMBER));
+        updateKlassTotalInfo();
     }
 
     /**
@@ -91,6 +92,7 @@ public class ScoreLibrary {
                     currentRes.add(currentScores.get(ConstantConfig.HEADER[i]).toString());
                 }
                 studentsInfos.get(klass).add(currentRes.stream().reduce((a,b)->a+"|"+b).get());
+
             }
         }
     }
@@ -124,16 +126,18 @@ public class ScoreLibrary {
 
             totalScores.sort(Double::compareTo);
 
+            klassTotalInfo.get(klass).clear();
+            //获取平均数
+            double avg = totalScores.stream().reduce((a,b)->a+b).get()/totalScores.size();
+            klassTotalInfo.get(klass).add(avg);
             //获取中位数
             int idx = totalScores.size()/2;
             if(totalScores.size()%2 == 0) {
-                klassTotalInfo.get(klass).set(1,(totalScores.get(idx)+totalScores.get(idx-1))/2 );
+                klassTotalInfo.get(klass).add((totalScores.get(idx)+totalScores.get(idx-1))/2 );
             }else{
-                klassTotalInfo.get(klass).set(1,totalScores.get(idx));
+                klassTotalInfo.get(klass).add(totalScores.get(idx));
             }
-            //获取平均数
-            double avg = totalScores.stream().reduce((a,b)->a+b).get()/totalScores.size();
-            klassTotalInfo.get(klass).set(0,avg);
+
 
         }
 

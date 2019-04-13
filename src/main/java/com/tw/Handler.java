@@ -16,6 +16,9 @@ public class Handler {
     private final UI ui = new UI();
     private final ScoreLibrary  library = ScoreLibrary.getIntance();
 
+    /**
+     * 处理主页逻辑
+     */
     public void HandleMainMenus(){
 
         while(true) {
@@ -34,13 +37,17 @@ public class Handler {
                   System.exit(0);
                   break;
               default:
-                  ui.printSearchFormatError();
+                  ui.printMainMenusError();
                   break;
           }
+
       }//while
     }
 
-    public void handleAddStudent(){
+    /**
+     * 处理添加学生逻辑
+     */
+    private void handleAddStudent(){
 
         int key = 0, value = 1;
 
@@ -73,13 +80,16 @@ public class Handler {
         }
     }
 
-    public void handleSearch(){
+    /**
+     *处理查询逻辑
+     */
+    private void handleSearch(){
 
         while(true) {
 
-           ui.printSearchMenu();
+            ui.printSearchMenu();
             String inputStr = ui.getString();
-
+            System.out.println(inputStr);
             try {
 
                 String[] elems = inputStr.split(",");
@@ -89,11 +99,9 @@ public class Handler {
                 Map<Integer,List<String>>studentsInfo = new Hashtable<>();
                 library.searchStudentScore(ids,klassInfos,studentsInfo);
 
-
-
-
                 ui.printSearchResult(klassInfos,studentsInfo);
                 break;
+
             } catch (Exception e) {
                 ui.printSearchFormatError();
             }

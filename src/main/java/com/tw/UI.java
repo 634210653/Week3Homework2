@@ -9,6 +9,7 @@ import java.util.stream.Stream;
  * @author LP
  * @date 2019.04.12
  */
+//xxx,12,艺术特长,211,语文:88,数学:22,编程:22,英语:23
 
 public class UI {
 
@@ -19,7 +20,9 @@ public class UI {
     }
 
     public int getInt(){
-        return  reader.nextInt();
+        int num = reader.nextInt();
+        reader.nextLine();
+        return  num;
     }
 
     public void printMainMenus(){
@@ -29,11 +32,11 @@ public class UI {
     }
 
     public  void  printAddStudentMenu(){
-        System.out.println("请输入学生信息（格式：姓名, 学号, 学科: 成绩, ...），按回车提交：");
+        System.out.println("请输入学生信息（格式：姓名, 学号, 民族, 班级, 学科: 成绩, ...），按回车提交：");
     }
 
     public  void  printSearchMenu(){
-        System.out.println("请输入学生信息（格式：姓名, 学号, 学科: 成绩, ...），按回车提交：");
+        System.out.println("请输入要打印的学生的学号（格式： 学号, 学号,...），按回车提交：");
 
     }
 
@@ -63,7 +66,7 @@ public class UI {
         System.out.println("请输入1-3的有限字符");
     }
     public void printAddFormatError(){
-        System.out.println("请按正确的格式输入（格式：姓名, 学号, 学科: 成绩, ...）:");
+        System.out.println("请按正确的格式输入（格式：姓名, 学号, 民族, 班级, 学科: 成绩, ...）：");
     }
 
     public void printSearchFormatError(){

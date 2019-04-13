@@ -11,11 +11,13 @@ public class Student {
     private  String name;
     private  int   id;
     private  String sType;
+    private  int   klass;
 
-    public Student(String name, int id, String sType){
+    public Student(String name, int id, String sType,int klass){
         this.name = name;
         this.id = id;
         this.sType = sType;
+        this.klass = klass;
     }
 
     public String getName() {
@@ -40,5 +42,9 @@ public class Student {
             return  true;
 
         return false;
+    }
+
+    public int getKlass() {
+        return klass;
     }
 }

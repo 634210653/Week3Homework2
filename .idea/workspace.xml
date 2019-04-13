@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="371fe62f-89e9-421e-aae4-8cf7ebe8b8fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/tw/ScoreLibraryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/tw/CommandAppTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tw/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tasking.md" beforeDir="false" afterPath="$PROJECT_DIR$/tasking.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -47,23 +47,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/CommandApp.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
-              <folding>
-                <element signature="e#169#170#0" expanded="true" />
-                <element signature="e#215#216#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-663">
-              <caret line="82" selection-start-line="82" selection-end-line="82" />
+            <state relative-caret-position="97">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#195#212#0" expanded="true" />
@@ -79,11 +66,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/ScoreLibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="161">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
               <folding>
                 <element signature="e#414#429#0" expanded="true" />
               </folding>
@@ -103,8 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/StudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="266">
+              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,8 +102,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/UI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="836">
-              <caret line="56" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="116">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#printMainMenus#0;class#UserInteraction#0" />
@@ -126,7 +113,33 @@
                 <element signature="e#2171#2172#0" expanded="true" />
                 <element signature="e#1051#1052#0" expanded="true" />
                 <element signature="e#1100#1101#0" expanded="true" />
+                <element signature="e#2746#2747#0" expanded="true" />
+                <element signature="e#2825#2826#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tasking.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="38">
+                <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="285">
+                <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -134,8 +147,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Handler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="116">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#1485#1501#0" expanded="true" />
@@ -145,8 +158,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="jar://D:/Java/jdk8/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -169,7 +186,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tw/Library.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/Student.java" />
-        <option value="$PROJECT_DIR$/tasking.md" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/UserInteraction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/ConstantConfig.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tw/StudentTest.java" />
@@ -177,9 +193,13 @@
         <option value="$PROJECT_DIR$/src/test/java/com/tw/CommandAppTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/CommandApp.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/Handler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tw/UI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tw/ScoreLibraryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tw/UITest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/UI.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tw/HandlerandUITest.java" />
+        <option value="$PROJECT_DIR$/tasking.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -298,21 +318,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ScoreLibraryTest.testMainMethod">
-    <configuration name="CommandApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.tw.CommandApp" />
-      <module name="student-grade-command-pattern-java-2019-1-8-2-59-10-727.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CommandAppTest.run" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HandlerandUITest.addTest">
+    <configuration name="HandlerandUITest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="student-grade-command-pattern-java-2019-1-8-2-59-10-727.test" />
       <extension name="coverage">
         <pattern>
@@ -321,24 +328,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.tw" />
-      <option name="MAIN_CLASS_NAME" value="com.tw.CommandAppTest" />
-      <option name="METHOD_NAME" value="run" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScoreLibraryTest.TestAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="student-grade-command-pattern-java-2019-1-8-2-59-10-727.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tw" />
-      <option name="MAIN_CLASS_NAME" value="com.tw.ScoreLibraryTest" />
-      <option name="METHOD_NAME" value="TestAll" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.HandlerandUITest" />
+      <option name="METHOD_NAME" value="addTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -360,7 +351,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentTest.should_person_have_name_and_age" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="student-grade-command-pattern-java-2019-1-8-2-59-10-727.test" />
       <extension name="coverage">
         <pattern>
@@ -369,8 +360,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.tw" />
-      <option name="MAIN_CLASS_NAME" value="com.tw.StudentTest" />
-      <option name="METHOD_NAME" value="should_person_have_name_and_age" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.UITest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UITest.printAddStudentMenuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student-grade-command-pattern-java-2019-1-8-2-59-10-727.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tw" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.UITest" />
+      <option name="METHOD_NAME" value="printAddStudentMenuTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UITest.printMainMenus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student-grade-command-pattern-java-2019-1-8-2-59-10-727.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tw" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.UITest" />
+      <option name="METHOD_NAME" value="printMainMenus" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -378,11 +400,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HandlerandUITest.addTest" />
+        <item itemvalue="JUnit.UITest" />
+        <item itemvalue="JUnit.UITest.printAddStudentMenuTest" />
+        <item itemvalue="JUnit.UITest.printMainMenus" />
         <item itemvalue="JUnit.ScoreLibraryTest.testMainMethod" />
-        <item itemvalue="JUnit.ScoreLibraryTest.TestAll" />
-        <item itemvalue="Application.CommandApp" />
-        <item itemvalue="JUnit.CommandAppTest.run" />
-        <item itemvalue="JUnit.StudentTest.should_person_have_name_and_age" />
       </list>
     </recent_temporary>
   </component>
@@ -396,44 +418,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555133816407</updated>
-      <workItem from="1555133821083" duration="31005000" />
+      <workItem from="1555133821083" duration="34867000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ScoreLibraryTest_TestAll - 2019.04.13 at 22h 36m 24s.xml">
-      <configuration name="ScoreLibraryTest.TestAll" configurationId="JUnit" />
+    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 17m 10s.xml">
+      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScoreLibraryTest_TestAll - 2019.04.13 at 22h 36m 28s.xml">
-      <configuration name="ScoreLibraryTest.TestAll" configurationId="JUnit" />
+    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 17m 16s.xml">
+      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScoreLibraryTest_TestAll - 2019.04.13 at 22h 37m 43s.xml">
-      <configuration name="ScoreLibraryTest.TestAll" configurationId="JUnit" />
+    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 17m 56s.xml">
+      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScoreLibraryTest_TestAll - 2019.04.13 at 22h 38m 01s.xml">
-      <configuration name="ScoreLibraryTest.TestAll" configurationId="JUnit" />
+    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 18m 10s.xml">
+      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScoreLibraryTest_TestAll - 2019.04.13 at 22h 38m 46s.xml">
-      <configuration name="ScoreLibraryTest.TestAll" configurationId="JUnit" />
+    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 18m 39s.xml">
+      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScoreLibraryTest_TestAll - 2019.04.13 at 22h 39m 49s.xml">
-      <configuration name="ScoreLibraryTest.TestAll" configurationId="JUnit" />
+    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 18m 54s.xml">
+      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScoreLibraryTest_TestAll - 2019.04.13 at 22h 43m 47s.xml">
-      <configuration name="ScoreLibraryTest.TestAll" configurationId="JUnit" />
+    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 19m 40s.xml">
+      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScoreLibraryTest_TestAll - 2019.04.13 at 22h 45m 02s.xml">
-      <configuration name="ScoreLibraryTest.TestAll" configurationId="JUnit" />
+    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 20m 42s.xml">
+      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScoreLibraryTest_TestAll - 2019.04.13 at 22h 45m 37s.xml">
-      <configuration name="ScoreLibraryTest.TestAll" configurationId="JUnit" />
+    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 21m 42s.xml">
+      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ScoreLibraryTest_testMainMethod - 2019.04.13 at 22h 46m 33s.xml">
-      <configuration name="ScoreLibraryTest.testMainMethod" configurationId="JUnit" />
+    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 23m 49s.xml">
+      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31005000" />
+    <option name="totallyTimeSpent" value="34867000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -444,7 +466,7 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Build" weight="0.3297587" />
       <window_info anchor="bottom" id="Terminal" />
@@ -455,8 +477,8 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.538874" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.1541555" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -518,16 +540,52 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tw/UI.java</url>
-          <line>55</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/tw/Handler.java</url>
+          <line>40</line>
           <properties />
-          <option name="timeStamp" value="40" />
+          <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/tw/UI.java</url>
-          <line>56</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/tw/Handler.java</url>
+          <line>39</line>
           <properties />
-          <option name="timeStamp" value="41" />
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tw/Handler.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tw/Handler.java</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tw/Handler.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tw/Handler.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tw/Handler.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tw/Handler.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="73" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -574,16 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="123">
-            <caret line="87" selection-start-line="87" selection-end-line="87" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Library.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -602,27 +650,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk8/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Parser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
           <caret line="18" column="9" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="18" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tasking.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="589">
-            <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -645,24 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/ConstantConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1485#1501#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -691,29 +704,78 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/StudentTest.java">
+    <entry file="jar://D:/Java/jdk8/src.zip!/java/lang/Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="157">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/UITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="78" column="33" selection-start-line="78" selection-start-column="33" selection-end-line="78" selection-end-column="33" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#130#131#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/UI.java">
+    <entry file="jar://D:/Java/jdk8/jre/lib/rt.jar!/sun/reflect/NativeMethodAccessorImpl.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        <state relative-caret-position="150">
+          <caret line="33" column="33" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/ConstantConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="54" lean-forward="true" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/HandlerandUITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="e#377#378#0" expanded="true" />
+            <element signature="e#435#436#0" expanded="true" />
+            <element signature="e#497#498#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#printMainMenus#0;class#UserInteraction#0" />
-            <element signature="e#591#592#0" expanded="true" />
-            <element signature="e#667#668#0" expanded="true" />
-            <element signature="e#2103#2104#0" expanded="true" />
-            <element signature="e#2171#2172#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#1485#1501#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#195#212#0" expanded="true" />
+            <element signature="e#602#617#0" expanded="true" />
+            <element signature="e#589#642#0" expanded="true" />
+            <element signature="e#961#983#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1178#1179#0" expanded="true" />
+            <element signature="e#2774#2782#0" expanded="true" />
+            <element signature="e#3521#3529#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -735,31 +797,62 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/UI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-663">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
+        <state relative-caret-position="116">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#195#212#0" expanded="true" />
-            <element signature="e#602#617#0" expanded="true" />
-            <element signature="e#589#642#0" expanded="true" />
-            <element signature="e#961#983#0" expanded="true" />
-            <element signature="e#1133#1134#0" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#2774#2782#0" expanded="true" />
-            <element signature="e#3521#3529#0" expanded="true" />
+            <element signature="method#printMainMenus#0;class#UserInteraction#0" />
+            <element signature="e#591#592#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#2103#2104#0" expanded="true" />
+            <element signature="e#2171#2172#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1100#1101#0" expanded="true" />
+            <element signature="e#2746#2747#0" expanded="true" />
+            <element signature="e#2825#2826#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tasking.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/ScoreLibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="161">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#414#429#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/StudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

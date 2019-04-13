@@ -9,7 +9,6 @@ import java.util.stream.Stream;
  * @author LP
  * @date 2019.04.12
  */
-//xxx,12,艺术特长,211,语文:88,数学:22,编程:22,英语:23
 
 public class UI {
 

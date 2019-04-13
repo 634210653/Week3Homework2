@@ -10,6 +10,15 @@ import java.util.List;
 
 public class ScoreLibrary {
 
+   //singleton
+    private static ScoreLibrary ins = null;
+    public static ScoreLibrary getIntance(){
+        if(ins == null){
+            ins = new ScoreLibrary();
+        }
+        return  ins;
+    }
+
     //学生
     private Hashtable<Integer,Student>students = new Hashtable<Integer,Student>();
     //成绩单
@@ -40,7 +49,6 @@ public class ScoreLibrary {
                 res.put(students.get(id),scores.get(current));
             }
         }
-
         return  res;
     }
 }

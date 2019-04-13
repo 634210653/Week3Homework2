@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="371fe62f-89e9-421e-aae4-8cf7ebe8b8fa" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tw/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tw/UI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/CommandApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tw/CommandApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tw/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/UserInteraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tw/UserInteraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tasking.md" beforeDir="false" afterPath="$PROJECT_DIR$/tasking.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/UserInteraction.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -31,8 +33,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="2" selection-start-line="2" selection-end-line="6" />
+            <state relative-caret-position="427">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
               <folding>
                 <element signature="e#338#339#0" expanded="true" />
                 <element signature="e#365#366#0" expanded="true" />
@@ -50,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/CommandApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+            <state relative-caret-position="76">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -59,14 +61,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="506">
+              <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#195#212#0" expanded="true" />
                 <element signature="e#243#278#0" expanded="true" />
                 <element signature="e#383#384#0" expanded="true" />
                 <element signature="e#406#407#0" expanded="true" />
+                <element signature="method#addScores#0;class#ScoreLibrary#0" />
+                <element signature="method#searchStudentScore#0;class#ScoreLibrary#0" />
                 <element signature="e#899#934#0" expanded="true" />
               </folding>
             </state>
@@ -86,15 +90,27 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/UserInteraction.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/UI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="446">
-              <caret line="74" column="65" lean-forward="true" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
+            <state relative-caret-position="389">
+              <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1209#1225#0" expanded="true" />
-                <element signature="e#989#990#0" expanded="true" />
-                <element signature="e#1068#1069#0" expanded="true" />
+                <element signature="method#printMainMenus#0;class#UserInteraction#0" />
+                <element signature="method#searchMenu#0;class#UserInteraction#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Handler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="693">
+              <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1144#1160#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,17 +119,6 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -161,13 +166,16 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tw/Library.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/Parser.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/Student.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java" />
         <option value="$PROJECT_DIR$/tasking.md" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/CommandApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/UserInteraction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/Handler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/UI.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="180" />
     <option name="width" value="1750" />
     <option name="height" value="1030" />
@@ -257,7 +265,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Week2/2/java-collection-operator-2019-1-7-10-21-48-420" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -315,7 +323,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555133816407</updated>
-      <workItem from="1555133821083" duration="9936000" />
+      <workItem from="1555133821083" duration="13421000" />
     </task>
     <servers />
   </component>
@@ -328,7 +336,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9936000" />
+    <option name="totallyTimeSpent" value="13421000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -485,32 +493,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/CommandApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="1" lean-forward="true" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
+    <entry file="file://$PROJECT_DIR$/tasking.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="589">
+            <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java">
+    <entry file="file://$PROJECT_DIR$/../../Week2/2/java-collection-operator-2019-1-7-10-21-48-420/src/main/java/com/thoughtworks/collection/MyMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#195#212#0" expanded="true" />
-            <element signature="e#243#278#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#406#407#0" expanded="true" />
-            <element signature="e#899#934#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-504" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/CommandApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Student.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="2" selection-start-line="2" selection-end-line="6" />
+        <state relative-caret-position="427">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
           <folding>
             <element signature="e#338#339#0" expanded="true" />
             <element signature="e#365#366#0" expanded="true" />
@@ -524,25 +532,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tasking.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="589">
-            <caret line="31" column="1" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
-          </first_editor>
-          <second_editor />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="92" column="5" lean-forward="true" selection-start-line="92" selection-start-column="5" selection-end-line="92" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1144#1160#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/UserInteraction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="74" column="65" lean-forward="true" selection-start-line="74" selection-start-column="65" selection-end-line="74" selection-end-column="65" />
+        <state relative-caret-position="506">
+          <caret line="28" column="5" lean-forward="true" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1209#1225#0" expanded="true" />
-            <element signature="e#989#990#0" expanded="true" />
-            <element signature="e#1068#1069#0" expanded="true" />
+            <element signature="e#195#212#0" expanded="true" />
+            <element signature="e#243#278#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="method#addScores#0;class#ScoreLibrary#0" />
+            <element signature="method#searchStudentScore#0;class#ScoreLibrary#0" />
+            <element signature="e#899#934#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/UI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#printMainMenus#0;class#UserInteraction#0" />
+            <element signature="method#searchMenu#0;class#UserInteraction#0" />
           </folding>
         </state>
       </provider>

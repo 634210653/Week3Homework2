@@ -39,6 +39,10 @@ public class ScoreLibrary {
 
     private Map<Integer,List<Double>> klassTotalInfo = new Hashtable<Integer,List<Double>>();
 
+    /**
+     * 添加学生
+     * @param stu  学生实体
+     */
     public void addStudent(Student stu){
         students.put(stu.getId(),stu);
     }

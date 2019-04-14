@@ -65,6 +65,7 @@ public class UI {
 
             if(handler.handleAddStudent(getString(),studentName)){
                printAddStudentResult(studentName.toString());
+               break;
             }else {
                printAddFormatError();
             }
@@ -79,9 +80,10 @@ public class UI {
         Map<Integer,List<Double>>klassInfos = new Hashtable<>();
         Map<Integer,List<String>>studentsInfo = new Hashtable<>();
         while(true){
-
+            printSearchMenu();
             if(handler.handleSearch(getString(),klassInfos,studentsInfo)){
                 printSearchResult(klassInfos,studentsInfo);
+                break;
             }else {
                 printSearchFormatError();
             }
@@ -111,7 +113,7 @@ public class UI {
         System.out.println("姓名|数学|语文|英语|编程|平均分|总分");
 
         for(int klass :klassInfos.keySet()){
-            System.out.println("班级1");
+            System.out.println(String.format("班级%d",klass));
             System.out.println("姓名|数学|语文|英语|编程|平均分|总分");
             System.out.println("========================");
             for(String str : studentsInfo.get(klass))

@@ -20,10 +20,11 @@ public class Handler {
     /**
      * 处理添加学生成绩逻辑
      */
-    public boolean handleAddStudent(String inputStr,String outputStr){
+    public boolean handleAddStudent(String inputStr,StringBuffer outputStr){
 
         int key = 0, value = 1;
 
+        outputStr.delete(0,outputStr.length());
         try {
             String[] elems = inputStr.split(",");
 
@@ -40,7 +41,8 @@ public class Handler {
 
             library.addScores(student, scores);
             library.addStudent(student);
-            outputStr = student.getName();
+            outputStr.append( student.getName());
+
             return  true;
 
         } catch (Exception e) {
@@ -56,7 +58,7 @@ public class Handler {
             try {
 
                 String[] elems = inputStr.split(",");
-                List<Integer> ids = Stream.of(elems).map(Integer::new).collect(Collectors.toList());
+                List<Integer> ids = Stream.of(elems).distinct().map(Integer::new).collect(Collectors.toList());
                 library.searchStudentScore(ids,klassInfos,studentsInfo);
                 return true;
 

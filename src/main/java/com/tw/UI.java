@@ -59,12 +59,12 @@ public class UI {
     public  void  addMenus(){
 
         printAddStudentMenu();
-        String studentName = null;
+        StringBuffer studentName = new StringBuffer();
 
         while(true){
 
             if(handler.handleAddStudent(getString(),studentName)){
-               printAddStudentResult(studentName);
+               printAddStudentResult(studentName.toString());
             }else {
                printAddFormatError();
             }

@@ -141,11 +141,6 @@ public class ScoreLibrary {
             }else{
                 klassTotalInfo.get(klass).add(totalScores.get(idx));
             }
-
-
         }
-
     }
-
-
 }

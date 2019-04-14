@@ -7,7 +7,7 @@ import static org.junit.Assert.*;
 public class StudentTest {
 
     @Test
-    public void should_person_have_name_and_age() throws Exception {
+    public void equalsTest() throws Exception {
 
       Student stu1 = new Student("张三",1,"正常",1);
       Student stu2 = new Student("张三",2,"正常",1);

@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="371fe62f-89e9-421e-aae4-8cf7ebe8b8fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/CommandApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tw/CommandApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tw/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/tw/UI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tw/UI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/tw/StudentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/tw/StudentTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -40,11 +40,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="91" selection-start-line="91" selection-end-line="91" />
+            <state relative-caret-position="1611">
+              <caret line="145" selection-start-line="145" selection-end-line="145" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,10 +53,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/ConstantConfig.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/ScoreLibraryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
+            <state relative-caret-position="314">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
             </state>
           </provider>
         </entry>
@@ -64,8 +64,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/StudentTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="323">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -76,8 +76,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/UI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-54">
-              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+            <state relative-caret-position="162">
+              <caret line="79" column="66" lean-forward="true" selection-start-line="78" selection-start-column="7" selection-end-line="79" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2065#2066#0" expanded="true" />
@@ -95,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/CommandApp.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="95">
@@ -103,18 +103,6 @@
               <folding>
                 <element signature="e#120#121#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tasking.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="57">
-                <caret line="3" selection-start-line="3" selection-end-line="3" />
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -134,10 +122,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Handler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="149">
+              <caret line="60" column="110" selection-start-line="60" selection-start-column="110" selection-end-line="60" selection-end-column="110" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/HandlerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="333">
+              <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+              <folding>
+                <element signature="e#208#209#0" expanded="true" />
+                <element signature="e#246#247#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -174,22 +175,23 @@
         <option value="$PROJECT_DIR$/src/main/java/com/tw/Student.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/UserInteraction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/ConstantConfig.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/tw/StudentTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/Utility.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tw/CommandAppTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tw/ScoreLibraryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tw/UITest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/tw/HandlerandUITest.java" />
         <option value="$PROJECT_DIR$/tasking.md" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tw/Handler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/tw/UI.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/tw/CommandApp.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tw/StudentTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/UI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/Handler.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/tw/HandlerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="180" />
     <option name="width" value="1750" />
     <option name="height" value="1030" />
@@ -304,7 +306,39 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.HandlerandUITest.addTest">
+  <component name="RunManager" selected="JUnit.HandlerTest.handleSearchTest">
+    <configuration name="HandlerTest.handleAddStudentTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student-grade-command-pattern-java-2019-1-8-2-59-10-727.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tw" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.HandlerTest" />
+      <option name="METHOD_NAME" value="handleAddStudentTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HandlerTest.handleSearchTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="student-grade-command-pattern-java-2019-1-8-2-59-10-727.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.tw.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.tw" />
+      <option name="MAIN_CLASS_NAME" value="com.tw.HandlerTest" />
+      <option name="METHOD_NAME" value="handleSearchTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HandlerandUITest.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="student-grade-command-pattern-java-2019-1-8-2-59-10-727.test" />
       <extension name="coverage">
@@ -316,22 +350,6 @@
       <option name="PACKAGE_NAME" value="com.tw" />
       <option name="MAIN_CLASS_NAME" value="com.tw.HandlerandUITest" />
       <option name="METHOD_NAME" value="addTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScoreLibraryTest.testMainMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="student-grade-command-pattern-java-2019-1-8-2-59-10-727.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tw" />
-      <option name="MAIN_CLASS_NAME" value="com.tw.ScoreLibraryTest" />
-      <option name="METHOD_NAME" value="testMainMethod" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -368,29 +386,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UITest.printMainMenus" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="student-grade-command-pattern-java-2019-1-8-2-59-10-727.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.tw.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.tw" />
-      <option name="MAIN_CLASS_NAME" value="com.tw.UITest" />
-      <option name="METHOD_NAME" value="printMainMenus" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HandlerTest.handleSearchTest" />
+        <item itemvalue="JUnit.HandlerTest.handleAddStudentTest" />
         <item itemvalue="JUnit.HandlerandUITest.addTest" />
         <item itemvalue="JUnit.UITest" />
         <item itemvalue="JUnit.UITest.printAddStudentMenuTest" />
-        <item itemvalue="JUnit.UITest.printMainMenus" />
-        <item itemvalue="JUnit.ScoreLibraryTest.testMainMethod" />
       </list>
     </recent_temporary>
   </component>
@@ -405,44 +407,44 @@
       <option name="presentableId" value="Default" />
       <updated>1555133816407</updated>
       <workItem from="1555133821083" duration="35417000" />
-      <workItem from="1555205998910" duration="1732000" />
+      <workItem from="1555205998910" duration="3842000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 17m 10s.xml">
-      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
+    <history-entry file="HandlerTest_handleAddStudentTest - 2019.04.14 at 10h 19m 25s.xml">
+      <configuration name="HandlerTest.handleAddStudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 17m 16s.xml">
-      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
+    <history-entry file="HandlerTest_handleAddStudentTest - 2019.04.14 at 10h 20m 37s.xml">
+      <configuration name="HandlerTest.handleAddStudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 17m 56s.xml">
-      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
+    <history-entry file="HandlerTest_handleAddStudentTest - 2019.04.14 at 10h 25m 07s.xml">
+      <configuration name="HandlerTest.handleAddStudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 18m 10s.xml">
-      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
+    <history-entry file="HandlerTest_handleAddStudentTest - 2019.04.14 at 10h 25m 10s.xml">
+      <configuration name="HandlerTest.handleAddStudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 18m 39s.xml">
-      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
+    <history-entry file="HandlerTest_handleAddStudentTest - 2019.04.14 at 10h 25m 25s.xml">
+      <configuration name="HandlerTest.handleAddStudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 18m 54s.xml">
-      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
+    <history-entry file="HandlerTest_handleAddStudentTest - 2019.04.14 at 10h 31m 12s.xml">
+      <configuration name="HandlerTest.handleAddStudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 19m 40s.xml">
-      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
+    <history-entry file="HandlerTest_handleAddStudentTest - 2019.04.14 at 10h 32m 36s.xml">
+      <configuration name="HandlerTest.handleAddStudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 20m 42s.xml">
-      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
+    <history-entry file="HandlerTest_handleAddStudentTest - 2019.04.14 at 10h 33m 29s.xml">
+      <configuration name="HandlerTest.handleAddStudentTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 21m 42s.xml">
-      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
+    <history-entry file="HandlerTest_handleSearchTest - 2019.04.14 at 10h 38m 01s.xml">
+      <configuration name="HandlerTest.handleSearchTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="HandlerandUITest_addTest - 2019.04.13 at 23h 23m 49s.xml">
-      <configuration name="HandlerandUITest.addTest" configurationId="JUnit" />
+    <history-entry file="HandlerTest_handleSearchTest - 2019.04.14 at 10h 43m 35s.xml">
+      <configuration name="HandlerTest.handleSearchTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37149000" />
+    <option name="totallyTimeSpent" value="39259000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="878" extended-state="6" />
@@ -457,8 +459,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3297587" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.16618498" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37935656" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -607,27 +609,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/UITest.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/HandlerandUITest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/ScoreLibraryTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/ConstantConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/StudentTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="14" column="21" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -658,41 +643,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/CommandApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="91" selection-start-line="91" selection-end-line="91" />
+        <state relative-caret-position="95">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#120#121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/StudentTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Student.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/ScoreLibraryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-95">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding>
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Handler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="314">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/UI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-54">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        <state relative-caret-position="162">
+          <caret line="79" column="66" lean-forward="true" selection-start-line="78" selection-start-column="7" selection-end-line="79" selection-end-column="66" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2065#2066#0" expanded="true" />
@@ -709,12 +690,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/CommandApp.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="149">
+          <caret line="60" column="110" selection-start-line="60" selection-start-column="110" selection-end-line="60" selection-end-column="110" />
           <folding>
-            <element signature="e#120#121#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/tw/HandlerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
+          <folding>
+            <element signature="e#208#209#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tw/ScoreLibrary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1611">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

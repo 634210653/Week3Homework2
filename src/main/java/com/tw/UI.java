@@ -12,18 +12,84 @@ import java.util.stream.Stream;
 
 public class UI {
 
-    Scanner reader = new Scanner(System.in);
+    private  final Handler handler = new Handler();
+    private  Scanner reader = new Scanner(System.in);
 
+
+    //输入
     public String getString(){
         return reader.nextLine();
     }
 
-    public int getInt(){
+    public int getSection(){
         int num = reader.nextInt();
         reader.nextLine();
         return  num;
     }
 
+
+    /**
+     *主菜单
+     */
+    public void mainMenus(){
+
+        while(true) {
+            printMainMenus();
+            switch (getSection()) {
+                case 1:
+                    addMenus();
+                    break;
+                case 2:
+                    searchMenus();
+                    break;
+                case 3:
+                    System.exit(0);
+                    break;
+                default:
+                    printMainMenusError();
+                    break;
+            }
+        }//while
+    }
+
+
+    /**
+     * 添加菜单
+     */
+    public  void  addMenus(){
+
+        printAddStudentMenu();
+        String studentName = null;
+
+        while(true){
+
+            if(handler.handleAddStudent(getString(),studentName)){
+               printAddStudentResult(studentName);
+            }else {
+               printAddFormatError();
+            }
+        }
+    }
+
+    /**
+     * 查询菜单
+     */
+    public void searchMenus(){
+
+        Map<Integer,List<Double>>klassInfos = new Hashtable<>();
+        Map<Integer,List<String>>studentsInfo = new Hashtable<>();
+        while(true){
+
+            if(handler.handleSearch(getString(),klassInfos,studentsInfo)){
+                printSearchResult(klassInfos,studentsInfo);
+            }else {
+                printSearchFormatError();
+            }
+        }
+    }
+
+
+    //输出
     public void printMainMenus(){
         System.out.println("1. 添加学生");
         System.out.println("2. 生成成绩单");
@@ -45,7 +111,6 @@ public class UI {
         System.out.println("姓名|数学|语文|英语|编程|平均分|总分");
 
         for(int klass :klassInfos.keySet()){
-
             System.out.println("班级1");
             System.out.println("姓名|数学|语文|英语|编程|平均分|总分");
             System.out.println("========================");
@@ -57,7 +122,7 @@ public class UI {
         }
     }
 
-    public void printlnAddStudentResult(String name){
+    public void printAddStudentResult(String name){
         System.out.println(String.format("学生%s的成绩被添加",name));
     }
 

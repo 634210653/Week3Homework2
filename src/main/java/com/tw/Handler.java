@@ -13,99 +13,56 @@ import java.util.stream.Stream;
 
 public class Handler {
 
-    private final UI ui = new UI();
+
     private final ScoreLibrary  library = ScoreLibrary.getIntance();
 
-    /**
-     * 处理主页逻辑
-     */
-    public void HandleMainMenus(){
-
-        while(true) {
-
-          ui.printMainMenus();
-          int seletion = ui.getInt();
-
-          switch (seletion) {
-              case 1:
-                  handleAddStudent();
-                  break;
-              case 2:
-                  handleSearch();
-                  break;
-              case 3:
-                  System.exit(0);
-                  break;
-              default:
-                  ui.printMainMenusError();
-                  break;
-          }
-
-      }//while
-    }
 
     /**
-     * 处理添加学生逻辑
+     * 处理添加学生成绩逻辑
      */
-    private void handleAddStudent(){
+    public boolean handleAddStudent(String inputStr,String outputStr){
 
         int key = 0, value = 1;
 
-        while(true) {
+        try {
+            String[] elems = inputStr.split(",");
 
-            ui.printAddStudentMenu();
-            String inputStr = ui.getString();
+            if (elems.length != ConstantConfig.ELEMENT_NUMBER)
+                throw new Exception("length error");
 
-            try {
-                String[] elems = inputStr.split(",");
+            Student student = new Student(elems[0], Integer.parseInt(elems[1]), elems[2], Integer.parseInt(elems[3]));
 
-                if (elems.length != ConstantConfig.ELEMENT_NUMBER)
-                    throw new Exception("length error");
-
-                Student student = new Student(elems[0], Integer.parseInt(elems[1]), elems[2], Integer.parseInt(elems[3]));
-                Hashtable<String, Double> scores = new Hashtable<String, Double>();
-
-                for (int i = ConstantConfig.STUDENT_FIELD_NUMBER; i < elems.length; i++) {
-                    String[] map = elems[i].split(":");
-                    scores.put(map[key], new Double(map[value]));
-                }
-
-                library.addScores(student, scores);
-                library.addStudent(student);
-                ui.printlnAddStudentResult(student.getName());
-                break;
-            } catch (Exception e) {
-                ui.printAddFormatError();
+            Hashtable<String, Double> scores = new Hashtable<String, Double>();
+            for (int i = ConstantConfig.STUDENT_FIELD_NUMBER; i < elems.length; i++) {
+                String[] map = elems[i].split(":");
+                scores.put(map[key], new Double(map[value]));
             }
+
+            library.addScores(student, scores);
+            library.addStudent(student);
+            outputStr = student.getName();
+            return  true;
+
+        } catch (Exception e) {
+            return  false;
         }
     }
 
     /**
      *处理查询逻辑
      */
-    private void handleSearch(){
+    public boolean handleSearch(String inputStr,  Map<Integer,List<Double>>klassInfos, Map<Integer,List<String>>studentsInfo){
 
-        while(true) {
-
-            ui.printSearchMenu();
-            String inputStr = ui.getString();
-            System.out.println(inputStr);
             try {
 
                 String[] elems = inputStr.split(",");
                 List<Integer> ids = Stream.of(elems).map(Integer::new).collect(Collectors.toList());
-
-                Map<Integer,List<Double>>klassInfos = new Hashtable<>();
-                Map<Integer,List<String>>studentsInfo = new Hashtable<>();
                 library.searchStudentScore(ids,klassInfos,studentsInfo);
-
-                ui.printSearchResult(klassInfos,studentsInfo);
-                break;
+                return true;
 
             } catch (Exception e) {
-                ui.printSearchFormatError();
+                return false;
             }
-        }
     }
 
 }
